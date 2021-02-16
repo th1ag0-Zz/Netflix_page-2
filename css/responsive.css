@@ -1,0 +1,38 @@
+@media (max-width: 620px) {
+  .container {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  header .container nav {
+    display: none;
+  }
+  header .container .logo {
+    width: 100px;
+    margin: 0 auto;
+  }
+  main .movie-title {
+    font-size: 30px;
+    width: 100%;
+  }
+  main .description {
+    font-size: 13px;
+    width: 100%;
+  }
+  main .principal-movie {
+    background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,.5) 80%, rgba(0,0,0,0)), url('https://www.themoviedb.org/t/p/original/ngoiHQul4QetfA62SdmZZOdDFAP.jpg') no-repeat;
+    background-size: cover;
+    background-position: center top;
+  }
+  main .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .buttons button {
+    width: 60%;
+    margin-top: 10px;
+  }
+  main .container {
+    margin-top: 50px;
+  }
+}
