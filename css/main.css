@@ -1,0 +1,41 @@
+:root {
+  --red: #e50914;
+  --black: #141414;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+body {
+  background: var(--black);
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+header .container .logo {
+  color: var(--red);
+  font-size: 40px;
+}
+
+header .container nav a {
+  color: #aaa;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+header .container nav a:last-child {
+  margin-right: 0;
+}
+
+header .container nav a:hover {
+  color: #fff; 
+}
