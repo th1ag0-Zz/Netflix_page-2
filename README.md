@@ -1,6 +1,8 @@
 <h1 align="center">Netflix_Page#2</h1>
 
-<img src="./.github/desktop.gif">
+<p align="center">
+  <img src="./.github/desktop.gif">
+</p>
 
 ### Projeto feito através da Plataforma da Digital Innovation One.
 
